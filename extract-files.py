@@ -71,7 +71,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('IGNORED_IRQ=27,23,38$', 'IGNORED_IRQ=27,23,38,115,332'),
     (
         'vendor/lib64/libdpps.so',
-        'vendor/lib64/liblearningmodule.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2_1.so'),
