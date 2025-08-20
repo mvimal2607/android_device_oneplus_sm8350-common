@@ -47,6 +47,10 @@ on boot
     chown cameraserver cameraserver /sys/kernel/tof_control/chip_enable
     chown cameraserver cameraserver /sys/kernel/tof_control/driver_debug
 
+    # Display
+    chown system system /sys/kernel/oplus_display/dimlayer_bl_en
+    chmod 0666 /sys/kernel/oplus_display/dimlayer_bl_en
+
 on property:ro.boot.prjname=*
     # Display
     setprop ro.separate.soft ${ro.boot.prjname}
