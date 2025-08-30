@@ -493,7 +493,7 @@ system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c761
 system/lib64/libostatslog.so
 system_ext/bin/horae
 system_ext/etc/horae/horae.conf
-system_ext/etc/horae/horae_SM8350.conf
+system_ext/etc/horae/horae_SM8350.conf:odm/etc/horae/horae_target.conf
 system_ext/etc/init/horae.rc
 
 # IMS(VENDOR)
