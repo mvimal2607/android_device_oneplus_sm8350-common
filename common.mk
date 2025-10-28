@@ -159,6 +159,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
 
+ifeq ($(TARGET_BUILD_GAPPS),true)
+# Hotword enrollment
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+endif
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
