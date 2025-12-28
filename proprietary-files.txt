@@ -492,7 +492,7 @@ system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c761
 # Horae
 system/lib64/libostatslog.so
 system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
-system_ext/bin/horae
+system_ext/bin/horae;DISABLE_CHECKELF
 system_ext/etc/horae/horae.conf
 system_ext/etc/horae/horae_SM8350.conf
 system_ext/etc/init/horae.rc
@@ -634,7 +634,7 @@ odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/firmware/fastchg/bms_heating_config.txt
 odm/firmware/fastchg/charging_thermal_config_default.txt
 odm/firmware/fastchg/smart_chg_config_table.txt
-odm/lib64/libGaiaClient_vnd.so
+odm/lib64/libGaiaClient_vnd.so;DISABLE_CHECKELF
 odm/lib64/libosenseaidlhalclient.so:odm/lib64/libosenseaidlhalclient_charge.so;FIX_SONAME
 odm/lib64/vendor.oplus.hardware.charger-V6-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.charger@1.0.so
