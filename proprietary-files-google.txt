@@ -1,4 +1,4 @@
-## from OnePlus Nord CE 3 (CPH2569_15.0.0.901(EX01)).
+## from OnePlus Nord CE 3 (CPH2569_15.0.0.1601(EX01)).
 
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
