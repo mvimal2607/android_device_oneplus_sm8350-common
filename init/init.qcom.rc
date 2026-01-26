@@ -361,6 +361,9 @@ on post-fs-data
     #Create dir for TUI
     mkdir /data/vendor/tui 0700 system drmrpc
 
+    # DEBUG: Allow reading dmesg through userspace
+    chmod 0644 /dev/kmsg
+
 service nqnfcinfo /system/vendor/bin/nqnfcinfo
     class late_start
     group nfc
