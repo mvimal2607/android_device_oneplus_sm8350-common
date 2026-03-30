@@ -74,8 +74,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsnapdragoncolor-manager.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2_1.so'),
-    'system_ext/bin/horae': blob_fixup()
-        .replace_needed('libprotobuf-cpp-lite.so', 'libprotobuf-cpp-lite-21.7.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
